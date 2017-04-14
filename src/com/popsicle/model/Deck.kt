@@ -22,5 +22,4 @@ class Deck {
         Collections.shuffle(cards)
         return this
     }
-
 }
