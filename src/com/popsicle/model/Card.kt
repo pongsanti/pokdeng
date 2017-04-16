@@ -6,4 +6,9 @@ package com.popsicle.model
 data class Card(
         var pip: Int,
         var suit: Suit
-)
+
+) {
+    override fun toString(): String {
+        return "Card(pip=$pip, ${suit.char} ${suit})"
+    }
+}

@@ -22,4 +22,8 @@ class Deck {
         Collections.shuffle(cards)
         return this
     }
+
+    fun pull(): Card {
+        return cards.removeAt(cards.size - 1)
+    }
 }
