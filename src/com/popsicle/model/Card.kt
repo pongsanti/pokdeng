@@ -9,6 +9,6 @@ data class Card(
 
 ) {
     override fun toString(): String {
-        return "Card(pip=$pip, ${suit.char} ${suit})"
+        return "Card(pip=$pip, ${suit.char} $suit)"
     }
 }

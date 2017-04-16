@@ -26,4 +26,9 @@ class Deck {
     fun pull(): Card {
         return cards.removeAt(cards.size - 1)
     }
+
+    override fun toString(): String {
+        return "Deck(cards=$cards)"
+    }
+
 }

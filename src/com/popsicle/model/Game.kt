@@ -1,5 +1,7 @@
 package com.popsicle.model
 
+import com.popsicle.util.Draw
+
 /**
  * Created by popsicle on 4/15/17.
  */
@@ -22,7 +24,8 @@ class Game {
         }
     }
 
-    fun printPlayers() {
-        players.forEach(::println)
+    override fun toString(): String {
+        return "Game(players=$players)"
     }
+
 }
